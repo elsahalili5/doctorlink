@@ -1,0 +1,71 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  font-family: Montserrat;
+} */
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+* {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 17px;
+}
+body {
+  background: #e9e9eb;
+}
+
+.layoutsidenav_content {
+  background: #e9e9eb;
+}
+.logo {
+  margin-top: 100px;
+  width: 150px;
+  margin-left: 10px;
+}
+.sb-nav-fixed #layoutSidenav #layoutSidenav_nav .sb-sidenav {
+  padding-top: 100px;
+}
+
+.navigation {
+  background-color: #012f33;
+}
+.search-btn {
+  background: rgb(187, 186, 186);
+}
+
+.action-links a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.action-links a:hover {
+  opacity: 0.6;
+}
+
+.button {
+  border: 1px solid #012f33;
+  background-color: #012f33;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+  display: flex;
+  align-items: center;
+}
+.button > svg {
+  margin-right: 10px;
+}
+
+.button:active {
+  transform: scale(0.95);
+}
+
+.button:focus {
+  border: 1px solid #012f33;
+}
+
+.button:hover {
+  color: white;
+  opacity: 0.9;
+}
